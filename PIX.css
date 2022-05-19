@@ -1,0 +1,109 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(40, auto);
+    grid-template-rows: repeat(18, auto);
+}
+
+.cell {
+    width: 32px ;
+    height: 31.59px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+/*1st row*/ #cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8, #cell9, #cell10, #cell11, #cell12, #cell13, #cell14, #cell15, #cell16, #cell17, #cell18, #cell19, #cell20, #cell21, #cell22, #cell23, #cell24, #cell25, #cell26, #cell27, #cell28, #cell29, #cell30, #cell31, #cell32, #cell33, #cell34, #cell35, #cell36, #cell37, #cell38, #cell39, #cell40,
+/*2nd row*/ #cell41, #cell42, #cell43, #cell44, #cell45, #cell46, #cell47, #cell48, #cell49, #cell50, #cell51, #cell52, #cell53, #cell54, #cell55, #cell56, #cell57, #cell58, /*space*/ #cell64, /*space*/ #cell68, #cell69, #cell70, #cell71, #cell72, #cell73, #cell74, #cell75, #cell76, #cell77, #cell78, #cell79, #cell80,
+/*3rd row*/ #cell81, #cell82, #cell83, #cell84, #cell85, #cell86, #cell87, #cell88, #cell89, #cell90, #cell91, #cell92, #cell93, #cell94, /*space*/ #cell97, /*space*/ #cell108, #cell109, #cell110, #cell111, #cell112, #cell113, #cell114, #cell115, #cell116, #cell117, #cell118, #cell119, #cell120,
+/*4th row*/ #cell121, #cell122, #cell123, #cell124, #cell125, #cell126, #cell127, #cell128, #cell129, #cell130, #cell131, #cell132, #cell133, /*space*/ #cell148, #cell149, #cell150, #cell151, #cell152, #cell153, #cell154, #cell155, #cell156, #cell157, #cell158, #cell159, #cell160, 
+/*5th row*/ #cell161, #cell162, #cell163, #cell164, #cell165, #cell166, #cell167, #cell168, #cell169, #cell170, #cell171, #cell172, #cell173, /*space*/ #cell188, #cell189, #cell190, #cell191, #cell192, #cell193, #cell194, #cell195, #cell196, #cell197, #cell198, #cell199, #cell200,
+/*6th row*/ #cell201, #cell202, #cell203, #cell204, #cell205, #cell206, #cell207, #cell208, #cell209, #cell210, #cell211, #cell212, #cell213, #cell214, /*space*/#cell225, /*space*/ #cell228, #cell229, #cell230, #cell231, #cell232, #cell233, #cell234, #cell235, #cell236, #cell237, #cell238, #cell239, #cell240,
+/*7th row*/ #cell241, #cell242, #cell243, #cell244, #cell245, #cell246, #cell247, #cell248, #cell249, #cell250, #cell251, #cell252, #cell253, #cell254, #cell255, #cell256, /*space*/ #cell265, /*space*/ #cell268, #cell269, #cell270, #cell271, #cell272, #cell273, #cell274, #cell275, #cell276, #cell277, #cell278, #cell279, #cell280,
+/*8th row*/ #cell281, #cell282, #cell283, #cell284, #cell285, #cell286, #cell287, #cell288, #cell289, #cell290, #cell291, #cell292, #cell293, #cell294, #cell295, #cell296, #cell297, /*space*/ #cell304, #cell305, /*space*/ #cell308, #cell309, #cell310, #cell311, #cell312, #cell313, #cell314, #cell315, #cell316, #cell317, #cell318, #cell319, #cell320,
+/*9th row*/ #cell321, #cell322, #cell323, #cell324, #cell325, #cell326, #cell327, #cell328, #cell329, #cell330, #cell331, #cell332, #cell333, #cell334, #cell335, #cell336, #cell337, /*space*/ #cell348, #cell349, #cell350, #cell351, #cell352, #cell353, #cell354, #cell355, #cell356, #cell357, #cell358, #cell359, #cell360,
+/*10th row*/ #cell361, #cell362, #cell363, #cell364, #cell365, #cell366, #cell367, #cell368, #cell369, #cell370, #cell371, /*space*/ #cell374, #cell375, #cell376, /*space*/ #cell388, #cell389, #cell390, #cell391, #cell392, #cell393, #cell394, #cell395, #cell396, #cell397, #cell398, #cell399, #cell400,
+/*11th row*/ #cell401, #cell402, #cell403, #cell404, #cell405, #cell406, #cell407, #cell408, #cell409, #cell410, #cell411, /*space*/ #cell415, #cell416, /*space*/ #cell424, #cell425, /*space*/ #cell428, #cell429, #cell430, #cell431, #cell432, #cell433, #cell434, #cell435, #cell436, #cell437, #cell438, #cell439, #cell440,
+/*12th row*/ #cell441, #cell442, #cell443, #cell444, #cell445, #cell446, #cell447, #cell448, #cell449, #cell450, #cell451, #cell452, /*space*/ #cell456, /*space*/ #cell465, /*space*/ #cell468, #cell469, #cell470, #cell471, #cell472, #cell473, #cell474, #cell475, #cell476, #cell477, #cell478, #cell479, #cell480,
+/*13th row*/ #cell481, #cell482, #cell483, #cell484, #cell485, #cell486, #cell487, #cell488, #cell489, #cell490, #cell491, #cell492, #cell493, /*space*/ #cell508, #cell509, #cell510, #cell511, #cell512, #cell513, #cell514, #cell515, #cell516, #cell517, #cell518, #cell519, #cell520,
+/*14th row*/ #cell521, #cell522, #cell523, #cell524, #cell525, #cell526, #cell527, #cell528, #cell529, #cell530, #cell531, #cell532, #cell533, #cell534, /*space*/ #cell548, #cell549, #cell550, #cell551, #cell552, #cell553, #cell554, #cell555, #cell556, #cell557, #cell558, #cell559, #cell560,
+/*15th row*/ #cell561, #cell562, #cell563, #cell564, #cell565, #cell566, #cell567, #cell568, #cell569, #cell570, #cell571, #cell572, #cell573, #cell574, #cell575, /*space*/ #cell588, #cell589, #cell590, #cell591, #cell592, #cell593, #cell594, #cell595, #cell596, #cell597, #cell598, #cell599, #cell600, 
+/*16th row*/ #cell601, #cell602, #cell603, #cell604, #cell605, #cell606, #cell607, #cell608, #cell609, #cell610, #cell611, #cell612, #cell613, #cell614, #cell615, #cell616, /*space*/ #cell628, #cell629, #cell630, #cell631, #cell632, #cell633, #cell634, #cell635, #cell636, #cell637, #cell638, #cell639, #cell640, 
+/*17th row*/ #cell641, #cell642, #cell643, #cell644, #cell645, #cell646, #cell647, #cell648, #cell649, #cell650, #cell651, #cell652, #cell653, #cell654, #cell655, #cell656, #cell657, /*space*/ #cell668, #cell669, #cell670, #cell671, #cell672, #cell673, #cell674, #cell675, #cell676, #cell677, #cell678, #cell679, #cell680,
+/*18th row*/ #cell681, #cell682, #cell683, #cell684, #cell685, #cell686, #cell687, #cell688, #cell689, #cell690, #cell691, #cell692, #cell693, #cell694, #cell695, #cell696, #cell697, /*space*/ #cell708, #cell709, #cell710, #cell711, #cell712, #cell713, #cell714, #cell715, #cell716, #cell717, #cell718, #cell719, #cell720 {
+    animation: myanimation 25s infinite;
+}
+
+@keyframes myanimation {
+    0% {background-color: #01affa;}
+    20%{background-color:#50c7ff;}
+    40%{background-color:#0068e0;}
+    60%{background-color:#00187a;}
+    80%{background-color:#0057ae;}
+    100%{background-color:#01affa;}
+}
+
+/*2nd row*/ #cell59, #cell60, #cell61, #cell62, #cell63, /*space*/ #cell65, #cell66,
+/*3rd row*/ #cell95, #cell96, #cell98, #cell99, #cell100, #cell101, #cell102, #cell103, #cell104, /*space*/ #cell107, 
+/*4th row*/ #cell134, /*space*/ #cell137, #cell138, #cell139, #cell140, #cell141, #cell142, #cell143, #cell144, /*space*/ #cell147,
+/*5th row*/ #cell174, /*space*/ #cell177, /*space*/ #cell179, /*space*/ #cell182, /*space*/ #cell184, #cell185, #cell186,
+/*6th row*/ #cell215, #cell216, #cell217, #cell218, #cell219, /*space*/ #cell222, #cell223, #cell224,
+/*7th row*/ #cell257, #cell258, #cell259, /*space*/ #cell262, #cell263, #cell264,
+/*8th row*/ #cell298, #cell299, #cell300, #cell301, #cell302, #cell303,
+/*9th row*/ #cell338, #cell339, #cell340, #cell341, #cell342, #cell343, #cell344, #cell345, #cell346,
+/*10th row*/ #cell377, #cell378, #cell379, #cell380, #cell381, #cell382, #cell383, #cell384, #cell385, #cell386,
+/*11th row*/ #cell417, #cell418, #cell419, #cell420, #cell421,
+/*12th row*/ #cell457, #cell458, #cell459, #cell460,
+/*13th row*/ #cell497, #cell498, #cell499, #cell500, /*space*/ #cell505, #cell506, #cell507,
+/*14th row*/ #cell538, #cell539, #cell540, #cell541, /*space*/ #cell544, #cell545, #cell546,
+/*15th row*/ #cell579, #cell580, #cell581, #cell582, #cell583, #cell584, #cell585,
+/*16th row*/ #cell619, #cell620, #cell621, #cell622, #cell623, #cell624 {
+    background-color: #878787;
+}
+
+/*3rd row*/ #cell105, #cell106,
+/*4th row*/ #cell135, #cell136, /*space*/ #cell145, #cell146,
+/*5th row*/ #cell175, #cell176,
+/*11th row*/ #cell422, #cell423,
+/*12th row*/ #cell461, #cell462, #cell463, #cell464,
+/*13th row*/ #cell501, #cell502, #cell503, #cell504,
+/*14th row*/ #cell542, #cell543 {
+    background-color: #cfcfcf;
+}
+
+/*2nd row*/ #cell67,
+/*5th row*/ #cell187,
+/*6th row*/ #cell226,
+/*7th row*/ #cell266,
+/*8th row*/ #cell307,
+/*10th row*/ #cell372, #cell373, #cell387,
+/*11th row*/ #cell412, #cell413, #cell414, #cell426, #cell427,
+/*12th row*/ #cell453, #cell454, #cell455, #cell466,
+/*13th row*/ #cell494, #cell495, #cell496,
+/*14th row*/ #cell535, #cell536, #cell537,
+/*15th row*/ #cell576, #cell577, #cell578, #cell586, #cell587,
+/*16th row*/ #cell617, #cell618, #cell625, #cell626, #cell627,
+/*17th row*/ #cell658, #cell659, #cell660, #cell661, #cell662, #cell663, #cell664, #cell665, #cell666, #cell667,
+/*18th row*/ #cell698, #cell699, #cell700, #cell701, #cell702, #cell703, #cell704, #cell705, #cell706, #cell707 {
+    background-color: #813f01;
+}
+
+#cell178, #cell180, #cell181, #cell183,
+#cell220, #cell221, #cell227,
+#cell260, #cell261, #cell267,
+#cell306,
+#cell347,
+#cell467,
+#cell547 {
+    background-color: black;
+}
