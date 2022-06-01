@@ -1,9 +1,9 @@
 const hour = new Date().getHours(); 
 
 if (hour < 23) {
-  document.getElementById(cell1).style.backgroundColor = "red";
+  document.getElementById('cell1').style.backgroundColor = "red";
 } else{
-  document.getElementById(cell1).style.backgroundColor = "yellow";
+  document.getElementById('cell1').style.backgroundColor = "yellow";
 }
 
 if (hour < 12){
