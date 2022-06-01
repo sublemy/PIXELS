@@ -24,15 +24,15 @@ body{
 }
 
 /*1st row*/ #cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8, #cell9, #cell10, #cell11, #cell12, #cell13, #cell14, #cell15, #cell16, #cell17, #cell18, #cell19, #cell20, #cell21, #cell22, #cell23, #cell24, #cell25, #cell26, #cell27, #cell28, #cell29, #cell30, #cell31, #cell32, #cell33, #cell34, #cell35, #cell36, #cell37, #cell38, #cell39, #cell40,
-/*2nd row*/ #cell41, #cell42, #cell43, #cell44, #cell45, #cell46, #cell47, #cell48, #cell49, #cell50, #cell51, #cell52, #cell53, #cell54, #cell55, #cell56, #cell57, #cell58, /*space*/ #cell64, /*space*/ #cell68, #cell69, #cell70, #cell71, #cell72, #cell73, #cell74, #cell75, #cell76, #cell77, #cell78, #cell79, #cell80,
-/*3rd row*/ #cell81, #cell82, #cell83, #cell84, #cell85, #cell86, #cell87, #cell88, #cell89, #cell90, #cell91, #cell92, #cell93, #cell94, /*space*/ #cell97, /*space*/ #cell108, #cell109, #cell110, #cell111, #cell112, #cell113, #cell114, #cell115, #cell116, #cell117, #cell118, #cell119, #cell120,
-/*4th row*/ #cell121, #cell122, #cell123, #cell124, #cell125, #cell126, #cell127, #cell128, #cell129, #cell130, #cell131, #cell132, #cell133, /*space*/ #cell148, #cell149, #cell150, #cell151, #cell152, #cell153, #cell154, #cell155, #cell156, #cell157, #cell158, #cell159, #cell160, 
-/*5th row*/ #cell161, #cell162, #cell163, #cell164, #cell165, #cell166, #cell167, #cell168, #cell169, #cell170, #cell171, #cell172, #cell173, /*space*/ #cell188, #cell189, #cell190, #cell191, #cell192, #cell193, #cell194, #cell195, #cell196, #cell197, #cell198, #cell199, #cell200,
-/*6th row*/ #cell201, #cell202, #cell203, #cell204, #cell205, #cell206, #cell207, #cell208, #cell209, #cell210, #cell211, #cell212, #cell213, #cell214, /*space*/#cell225, /*space*/ #cell228, #cell229, #cell230, #cell231, #cell232, #cell233, #cell234, #cell235, #cell236, #cell237, #cell238, #cell239, #cell240,
-/*7th row*/ #cell241, #cell242, #cell243, #cell244, #cell245, #cell246, #cell247, #cell248, #cell249, #cell250, #cell251, #cell252, #cell253, #cell254, #cell255, #cell256, /*space*/ #cell265, /*space*/ #cell268, #cell269, #cell270, #cell271, #cell272, #cell273, #cell274, #cell275, #cell276, #cell277, #cell278, #cell279, #cell280,
-/*8th row*/ #cell281, #cell282, #cell283, #cell284, #cell285, #cell286, #cell287, #cell288, #cell289, #cell290, #cell291, #cell292, #cell293, #cell294, #cell295, #cell296, #cell297, /*space*/ #cell304, #cell305, /*space*/ #cell308, #cell309, #cell310, #cell311, #cell312, #cell313, #cell314, #cell315, #cell316, #cell317, #cell318, #cell319, #cell320,
-/*9th row*/ #cell321, #cell322, #cell323, #cell324, #cell325, #cell326, #cell327, #cell328, #cell329, #cell330, #cell331, #cell332, #cell333, #cell334, #cell335, #cell336, #cell337, /*space*/ #cell348, #cell349, #cell350, #cell351, #cell352, #cell353, #cell354, #cell355, #cell356, #cell357, #cell358, #cell359, #cell360,
-/*10th row*/ #cell361, #cell362, #cell363, #cell364, #cell365, #cell366, #cell367, #cell368, #cell369, #cell370, #cell371, /*space*/ #cell374, #cell375, #cell376, /*space*/ #cell388, #cell389, #cell390, #cell391, #cell392, #cell393, #cell394, #cell395, #cell396, #cell397, #cell398, #cell399, #cell400,
+/*2nd row*/ #cell41, #cell42, #cell43, #cell44, #cell45, /*space*/ #cell48, #cell49, #cell50, #cell51, #cell52, #cell53, #cell54, #cell55, #cell56, #cell57, #cell58, /*space*/ #cell64, /*space*/ #cell68, #cell69, #cell70, #cell71, #cell72, #cell73, /*space*/ #cell77, #cell78, #cell79, #cell80,
+/*3rd row*/ #cell81, #cell82, #cell83, /*space*/ #cell89, #cell90, #cell91, #cell92, #cell93, #cell94, /*space*/ #cell97, /*space*/ #cell108, #cell109, #cell110, #cell111, /*space*/ #cell117, #cell118, #cell119, #cell120,
+/*4th row*/ #cell121, #cell122, /*space*/ #cell130, #cell131, #cell132, #cell133, /*space*/ #cell148, #cell149, #cell150, /*space*/ #cell156, #cell157, #cell158, #cell159, #cell160, 
+/*5th row*/ #cell161, /*space*/ #cell172, #cell173, /*space*/ #cell188, #cell189, #cell190, /*space*/ #cell195, #cell196, #cell197, #cell198, #cell199, #cell200,
+/*6th row*/ #cell201, /*space*/ #cell213, #cell214, /*space*/#cell225, /*space*/ #cell228, #cell229, /*space*/ #cell235, #cell236, #cell237, #cell238, #cell239, #cell240,
+/*7th row*/ #cell241, #cell242, /*space*/ #cell251, #cell252, #cell253, #cell254, #cell255, #cell256, /*space*/ #cell265, /*space*/ #cell268, #cell269, /*space*/ #cell275, #cell276, #cell277, /*space*/ #cell279, #cell280,
+/*8th row*/ #cell281, #cell282, #cell283, #cell284, #cell285, #cell286, #cell287, #cell288, #cell289, #cell290, #cell291, #cell292, #cell293, #cell294, #cell295, #cell296, #cell297, /*space*/ #cell304, #cell305, /*space*/ #cell308, #cell309, #cell310, /*space*/  #cell316, /*space*/ #cell319, #cell320,
+/*9th row*/ #cell321, #cell322, #cell323, #cell324, #cell325, #cell326, #cell327, #cell328, #cell329, #cell330, #cell331, #cell332, #cell333, #cell334, #cell335, #cell336, #cell337, /*space*/ #cell348, #cell349, #cell350, /*space*/ #cell359, #cell360,
+/*10th row*/ #cell361, #cell362, #cell363, #cell364, #cell365, #cell366, #cell367, #cell368, #cell369, #cell370, #cell371, /*space*/ #cell374, #cell375, #cell376, /*space*/ #cell388, #cell389, #cell390, #cell391, /*space*/ #cell398, #cell399, #cell400,
 /*11th row*/ #cell401, #cell402, #cell403, #cell404, #cell405, #cell406, #cell407, #cell408, #cell409, #cell410, #cell411, /*space*/ #cell415, #cell416, /*space*/ #cell424, #cell425, /*space*/ #cell428, #cell429, #cell430, #cell431, #cell432, #cell433, #cell434, #cell435, #cell436, #cell437, #cell438, #cell439, #cell440,
 /*12th row*/ #cell441, #cell442, #cell443, #cell444, #cell445, #cell446, #cell447, #cell448, #cell449, #cell450, #cell451, #cell452, /*space*/ #cell456, /*space*/ #cell465, /*space*/ #cell468, #cell469, #cell470, #cell471, #cell472, #cell473, #cell474, #cell475, #cell476, #cell477, #cell478, #cell479, #cell480,
 /*13th row*/ #cell481, #cell482, #cell483, #cell484, #cell485, #cell486, #cell487, #cell488, #cell489, #cell490, #cell491, #cell492, #cell493, /*space*/ #cell508, #cell509, #cell510, #cell511, #cell512, #cell513, #cell514, #cell515, #cell516, #cell517, #cell518, #cell519, #cell520,
@@ -48,7 +48,7 @@ body{
     0% {background-color: #01affa;}
     20%{background-color:#50c7ff;}
     40%{background-color:#0068e0;}
-    60%{background-color:#00187a;}
+    60%{background-color:#010824;}
     80%{background-color:#0057ae;}
     100%{background-color:#01affa;}
 }
@@ -107,3 +107,133 @@ body{
 #cell547 {
     background-color: black;
 }
+
+/*nube w/light */
+#cell46, #cell47, #cell85, #cell86, #cell87, #cell88, #cell123, #cell124, #cell125, #cell126, #cell127, #cell128, #cell129, #cell163, #cell164, #cell165, #cell166, #cell167, #cell169, #cell170, #cell204, #cell205, #cell207, #cell208, #cell209 {
+    animation: skywithlight 25s infinite;
+}
+
+@keyframes skywithlight {
+    0% {background-color: #ffffff;}
+    20%{background-color:#ffffff;}
+    40%{background-color:#e0edfb;}
+    60%{background-color:#010824;}
+    90%{background-color:#d3e1ee;}
+    100%{background-color:#ffffff;}
+}
+
+/*nube n/light */
+#cell84, #cell162, #cell168, #cell171, #cell202, #cell203, #cell206, #cell209, #cell210, #cell211, #cell212, #cell243, #cell244, #cell245, #cell246, #cell247, #cell248, #cell249, #cell250{
+    animation: skywithoutlight 25s infinite;
+}
+
+@keyframes skywithoutlight {
+    0% {background-color: #c8c8c8;}
+    20%{background-color:#a3a3a3;}
+    40%{background-color:#94999f;}
+    60%{background-color:#010824;}
+    90%{background-color:#7e7e7e;}
+    100%{background-color:#c8c8c8;}
+}
+
+/*lightmoon*/
+#cell114,  
+#cell152, #cell153,  
+#cell192,  
+#cell231, #cell232,  
+#cell271, #cell272,   
+#cell312, #cell313, #cell314,   
+#cell352, #cell353, #cell354, #cell355, #cell356,
+#cell394, #cell395 {
+    animation: lightmoon 25s infinite;
+}
+
+@keyframes lightmoon {
+    0% {background-color: #01affa;}
+    20%{background-color:#50c7ff;}
+    40%{background-color:#0068e0;}
+    60%{background-color:#bbe7f4;}
+    80%{background-color:#bacddb;}
+    100%{background-color:#01affa;}
+}
+
+/*shadowmoon1*/
+#cell76, #cell116, #cell155, #cell194, #cell234, #cell274, #cell278, #cell315, #cell318, #cell358, #cell397 {
+    animation: shadowmoon1 25s infinite;
+}
+
+@keyframes shadowmoon1 {
+    0% {background-color: #01affa;}
+    20%{background-color:#50c7ff;}
+    40%{background-color:#0068e0;}
+    60%{background-color:#6ea5cf;}
+    80%{background-color:#457fa3;}
+    100%{background-color:#01affa;}
+}
+
+/*shadowmoon2*/
+#cell74, #cell75, #cell112, #cell113, #cell115, #cell151, #cell154, #cell191, #cell193, #cell230, #cell233, #cell270, #cell273, #cell311, #cell317, #cell351, #cell357, #cell392, #cell393, #cell396 {
+    animation: shadowmoon2 25s infinite;
+}
+
+@keyframes shadowmoon2 {
+    0% {background-color: #01affa;}
+    20%{background-color:#50c7ff;}
+    40%{background-color:#0068e0;}
+    60%{background-color:#86c1f4;}
+    80%{background-color:#74b2e0;}
+    100%{background-color:#01affa;}
+}
+
+/*eyes*/
+#cell178, #cell183{
+    animation: sleepeyes 25s infinite;
+}
+
+@keyframes sleepeyes {
+    20%{background-color:#000000;}
+    40%{background-color:#000000;}
+    60%{background-color:#474747;}
+    80%{background-color:#2d2d2d;}
+    100%{background-color:#000000;}
+}
+
+/*ears*/
+#cell176, #cell145 {
+    background-color: #c18993;
+}
+
+/*stars1*/
+#cell2, #cell40, #cell158, #cell69, #cell92, #cell201, #cell251, #cell404{
+    animation: stars1 25s infinite;   
+}
+
+@keyframes stars1 {
+    0% {background-color: #01affa;}
+    20%{background-color:#50c7ff;}
+    40%{background-color:#0068e0;}
+    61%{background-color:#ffd500;}
+    65%{background-color:#ffcc00;}
+    70%{background-color:#ffea00;}
+    75%{background-color:#f7e27b;}
+    79%{background-color:#0057ae;}
+    100%{background-color:#01affa;}
+}
+
+/*stars2*/
+#cell15, #cell27, #cell48, #cell287, #cell430{
+    animation: stars2 25s infinite;   
+}
+
+@keyframes stars2 {
+    0% {background-color: #01affa;}
+    20%{background-color:#50c7ff;}
+    40%{background-color:#0068e0;}
+    62%{background-color:#faf1b6;}
+    67%{background-color:#ffffff;}
+    71%{background-color:#feee3d;}
+    76%{background-color:#f7eaa9;}
+    80%{background-color:#0057ae;}
+    100%{background-color:#01affa;}
+}
+

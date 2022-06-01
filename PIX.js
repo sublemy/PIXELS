@@ -1,15 +1,15 @@
-function myanimation(hour, minutes, func){
-    const twentyFourHours = 86400000;
-    const now = new Date();
-    let eta_ms = new Date (now.getFullYear(), now.getMonth(), now.getDate(), hour, minutes, 0, 0).getTime() - now;
-    if (eta_ms < 0)
-    {
-        eta_ms += twentyFourHours;
-    }
-    setTimeout(function() {
-        func();
-        setInterval(func, twentyFourHours);
-    }, eta_ms);
+const hour = new Date().getHours(); 
+
+if (hour < 23) {
+  document.getElementById(cell1).style.backgroundColor = "red";
+} else{
+  document.getElementById(cell1).style.backgroundColor = "yellow";
 }
 
-myanimation (6,1,()=> { console.log(new Date())});
+if (hour < 12){
+  console.log('Day')
+} else if (hour<18){
+  console.log('Afternoon')
+} else {
+  console.log('Night')
+}
